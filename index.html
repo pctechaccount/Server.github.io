@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Startseite</title>
+    <style>
+        body {
+            background-image: url('G.jpg');  
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            display: flex;
+            flex-direction: column;
+            align-items: center;   
+            justify-content: flex-start; 
+            height: 100vh;          
+            margin: 0;    
+            font-family: Arial;         
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            margin-top: 20px;        
+            text-align: center;      
+            color: white;          
+        }
+
+        a {color: black; text-decoration: none;}
+        a:hover {color: black;}
+        a:visited {color: black;}
+        a:focus {outline: none;}
+        
+        .image-container-wrap {
+            justify-content: center;
+            align-content: center;
+            gap: 20px;
+            display: flex;
+        }
+
+        .image-container-flex {
+            justify-content: center;
+            align-content: center;
+            gap: 20px;
+            display: block;
+        }
+
+        .image-wrap {
+            background-size: cover;
+            background-position: center;
+            justify-content: center;
+            margin: 10px;
+            display: flex;
+            border-radius: 10px;
+            width: 474px;
+            height: 266px;
+            text-align: center;
+            color: white;
+        }
+
+        .image {
+            background-size: cover;
+            background-position: center;
+            justify-content: center;
+            margin: 10px;
+            display: block;
+            border-radius: 10px;
+            width: 474px;
+            height: 266px;
+            text-align: center;
+            color: white;
+        }
+
+        .image-full {
+            width: 100%;
+            max-width: 100%;
+            height: 100%;
+        }
+
+        footer {
+            background-color: rgba(0, 0, 0, 0)
+        }
+
+        .footer-container {
+            display: flex;
+            justify-content: space-around;
+            text-align: left;
+        }
+
+        .footer-column {
+            flex: 1;
+            padding: 10px;
+        }
+
+        .footer-column h3 {
+            margin-top: 0;
+            font-size: 1.1em;
+        }
+
+        .footer-column ul {
+            list-style-type: none;
+            padding: 20;
+        }
+
+        .footer-column ul li {
+            margin-bottom: 10px;
+        }
+
+        footer p {
+            font-size: 0.8em;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Willkommen auf meiner Website</h1>
+<!--
+    <div class="image-container-flex">
+        <div class="image" style="background-image: url(W.jpg);">
+            <figcaption>image 1</figcaption>
+        </div>
+    </div>
+
+    <div class="image-container-wrap">
+        <div class="image-wrap" style="background-image: url(R.jpg);">
+            <figcaption>image 2</figcaption>
+        </div>
+        <div class="image-wrap" style="background-image: url(F.jpg);">
+            <figcaption>image 3</figcaption>
+        </div>
+    </div>
+-->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <ul>
+                    <h3><a href="/impressum.html">Impressum</a></h3>
+                    <h3><a href="/Über mich.html">Über mich</a></h3>
+                    <h3><a href="/E-Mail.html">E-Mail</a></h3>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <ul>
+                    <h3><a href="/Tik Tok.html">Tik Tok</a></h3>
+                    <h3><a href="/Instagram.html">Instagram</a></h3>
+                    <h3><a href="/Youtube.html">Youtube</a></h3>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <ul>
+                    <h3><a href="/FAQ.html">FAQ</a></h3>
+                    <h3><a href="/Übersicht.html">Übersicht</a></h3>
+                    <h3><a href="/Infos.html">Infos</a></h3>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
